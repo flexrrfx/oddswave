@@ -1,0 +1,601 @@
+[
+    {
+        "id": "c2c2561efd4d4f69367aa83be60995a0",
+        "sport_key": "basketball_nba",
+        "sport_title": "NBA",
+        "commence_time": "2026-05-31T00:10:00Z",
+        "home_team": "Oklahoma City Thunder",
+        "away_team": "San Antonio Spurs",
+        "bookmakers": [
+            {
+                "key": "draftkings",
+                "title": "DraftKings",
+                "last_update": "2026-05-29T19:05:59Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2026-05-29T19:05:59Z",
+                        "outcomes": [
+                            {
+                                "name": "Oklahoma City Thunder",
+                                "price": -155
+                            },
+                            {
+                                "name": "San Antonio Spurs",
+                                "price": 130
+                            }
+                        ]
+                    },
+                    {
+                        "key": "spreads",
+                        "last_update": "2026-05-29T19:05:59Z",
+                        "outcomes": [
+                            {
+                                "name": "Oklahoma City Thunder",
+                                "price": -112,
+                                "point": -3.5
+                            },
+                            {
+                                "name": "San Antonio Spurs",
+                                "price": -108,
+                                "point": 3.5
+                            }
+                        ]
+                    },
+                    {
+                        "key": "totals",
+                        "last_update": "2026-05-29T19:05:59Z",
+                        "outcomes": [
+                            {
+                                "name": "Over",
+                                "price": -110,
+                                "point": 212.5
+                            },
+                            {
+                                "name": "Under",
+                                "price": -110,
+                                "point": 212.5
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2026-05-29T19:05:59Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2026-05-29T19:05:59Z",
+                        "outcomes": [
+                            {
+                                "name": "Oklahoma City Thunder",
+                                "price": -158
+                            },
+                            {
+                                "name": "San Antonio Spurs",
+                                "price": 134
+                            }
+                        ]
+                    },
+                    {
+                        "key": "spreads",
+                        "last_update": "2026-05-29T19:05:59Z",
+                        "outcomes": [
+                            {
+                                "name": "Oklahoma City Thunder",
+                                "price": -110,
+                                "point": -3.5
+                            },
+                            {
+                                "name": "San Antonio Spurs",
+                                "price": -110,
+                                "point": 3.5
+                            }
+                        ]
+                    },
+                    {
+                        "key": "totals",
+                        "last_update": "2026-05-29T19:05:59Z",
+                        "outcomes": [
+                            {
+                                "name": "Over",
+                                "price": -110,
+                                "point": 212.5
+                            },
+                            {
+                                "name": "Under",
+                                "price": -110,
+                                "point": 212.5
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betonlineag",
+                "title": "BetOnline.ag",
+                "last_update": "2026-05-29T19:05:38Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2026-05-29T19:05:38Z",
+                        "outcomes": [
+                            {
+                                "name": "Oklahoma City Thunder",
+                                "price": -155
+                            },
+                            {
+                                "name": "San Antonio Spurs",
+                                "price": 135
+                            }
+                        ]
+                    },
+                    {
+                        "key": "spreads",
+                        "last_update": "2026-05-29T19:05:38Z",
+                        "outcomes": [
+                            {
+                                "name": "Oklahoma City Thunder",
+                                "price": -112,
+                                "point": -3.5
+                            },
+                            {
+                                "name": "San Antonio Spurs",
+                                "price": -108,
+                                "point": 3.5
+                            }
+                        ]
+                    },
+                    {
+                        "key": "totals",
+                        "last_update": "2026-05-29T19:05:38Z",
+                        "outcomes": [
+                            {
+                                "name": "Over",
+                                "price": -110,
+                                "point": 212.5
+                            },
+                            {
+                                "name": "Under",
+                                "price": -110,
+                                "point": 212.5
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "williamhill_us",
+                "title": "Caesars",
+                "last_update": "2026-05-29T19:04:58Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2026-05-29T19:04:58Z",
+                        "outcomes": [
+                            {
+                                "name": "Oklahoma City Thunder",
+                                "price": -150
+                            },
+                            {
+                                "name": "San Antonio Spurs",
+                                "price": 126
+                            }
+                        ]
+                    },
+                    {
+                        "key": "spreads",
+                        "last_update": "2026-05-29T19:04:58Z",
+                        "outcomes": [
+                            {
+                                "name": "Oklahoma City Thunder",
+                                "price": -115,
+                                "point": -3.0
+                            },
+                            {
+                                "name": "San Antonio Spurs",
+                                "price": -105,
+                                "point": 3.0
+                            }
+                        ]
+                    },
+                    {
+                        "key": "totals",
+                        "last_update": "2026-05-29T19:04:58Z",
+                        "outcomes": [
+                            {
+                                "name": "Over",
+                                "price": -115,
+                                "point": 213.0
+                            },
+                            {
+                                "name": "Under",
+                                "price": -105,
+                                "point": 213.0
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "kalshi",
+                "title": "Kalshi",
+                "last_update": "2026-05-29T19:05:59Z",
+                "markets": [
+                    {
+                        "key": "spreads",
+                        "last_update": "2026-05-29T19:05:59Z",
+                        "outcomes": [
+                            {
+                                "name": "Oklahoma City Thunder",
+                                "price": -104,
+                                "point": -3.5
+                            },
+                            {
+                                "name": "San Antonio Spurs",
+                                "price": -104,
+                                "point": 3.5
+                            }
+                        ]
+                    },
+                    {
+                        "key": "totals",
+                        "last_update": "2026-05-29T19:05:59Z",
+                        "outcomes": [
+                            {
+                                "name": "Over",
+                                "price": 113,
+                                "point": 214.5
+                            },
+                            {
+                                "name": "Under",
+                                "price": -122,
+                                "point": 214.5
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "last_update": "2026-05-29T19:06:18Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2026-05-29T19:06:18Z",
+                        "outcomes": [
+                            {
+                                "name": "Oklahoma City Thunder",
+                                "price": -154
+                            },
+                            {
+                                "name": "San Antonio Spurs",
+                                "price": 136
+                            }
+                        ]
+                    },
+                    {
+                        "key": "spreads",
+                        "last_update": "2026-05-29T19:06:18Z",
+                        "outcomes": [
+                            {
+                                "name": "Oklahoma City Thunder",
+                                "price": -107,
+                                "point": -3.5
+                            },
+                            {
+                                "name": "San Antonio Spurs",
+                                "price": -105,
+                                "point": 3.5
+                            }
+                        ]
+                    },
+                    {
+                        "key": "totals",
+                        "last_update": "2026-05-29T19:06:18Z",
+                        "outcomes": [
+                            {
+                                "name": "Over",
+                                "price": -105,
+                                "point": 213.0
+                            },
+                            {
+                                "name": "Under",
+                                "price": -109,
+                                "point": 213.0
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "novig",
+                "title": "Novig",
+                "last_update": "2026-05-29T19:05:58Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2026-05-29T19:05:58Z",
+                        "outcomes": [
+                            {
+                                "name": "Oklahoma City Thunder",
+                                "price": -141
+                            },
+                            {
+                                "name": "San Antonio Spurs",
+                                "price": 140
+                            }
+                        ]
+                    },
+                    {
+                        "key": "spreads",
+                        "last_update": "2026-05-29T19:05:58Z",
+                        "outcomes": [
+                            {
+                                "name": "Oklahoma City Thunder",
+                                "price": -102,
+                                "point": -3.5
+                            },
+                            {
+                                "name": "San Antonio Spurs",
+                                "price": 101,
+                                "point": 3.5
+                            }
+                        ]
+                    },
+                    {
+                        "key": "totals",
+                        "last_update": "2026-05-29T19:05:58Z",
+                        "outcomes": [
+                            {
+                                "name": "Over",
+                                "price": -106,
+                                "point": 212.5
+                            },
+                            {
+                                "name": "Under",
+                                "price": 101,
+                                "point": 212.5
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "27f8823f01243e8857b317dec213f14c",
+        "sport_key": "basketball_nba",
+        "sport_title": "NBA",
+        "commence_time": "2026-06-04T00:40:00Z",
+        "home_team": "Oklahoma City Thunder",
+        "away_team": "New York Knicks",
+        "bookmakers": [
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2026-05-29T19:05:59Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2026-05-29T19:05:59Z",
+                        "outcomes": [
+                            {
+                                "name": "New York Knicks",
+                                "price": 188
+                            },
+                            {
+                                "name": "Oklahoma City Thunder",
+                                "price": -225
+                            }
+                        ]
+                    },
+                    {
+                        "key": "spreads",
+                        "last_update": "2026-05-29T19:05:59Z",
+                        "outcomes": [
+                            {
+                                "name": "New York Knicks",
+                                "price": -104,
+                                "point": 5.5
+                            },
+                            {
+                                "name": "Oklahoma City Thunder",
+                                "price": -118,
+                                "point": -5.5
+                            }
+                        ]
+                    },
+                    {
+                        "key": "totals",
+                        "last_update": "2026-05-29T19:05:59Z",
+                        "outcomes": [
+                            {
+                                "name": "Over",
+                                "price": -110,
+                                "point": 215.5
+                            },
+                            {
+                                "name": "Under",
+                                "price": -110,
+                                "point": 215.5
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "draftkings",
+                "title": "DraftKings",
+                "last_update": "2026-05-29T19:05:59Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2026-05-29T19:05:59Z",
+                        "outcomes": [
+                            {
+                                "name": "New York Knicks",
+                                "price": 190
+                            },
+                            {
+                                "name": "Oklahoma City Thunder",
+                                "price": -230
+                            }
+                        ]
+                    },
+                    {
+                        "key": "spreads",
+                        "last_update": "2026-05-29T19:05:59Z",
+                        "outcomes": [
+                            {
+                                "name": "New York Knicks",
+                                "price": -115,
+                                "point": 6.5
+                            },
+                            {
+                                "name": "Oklahoma City Thunder",
+                                "price": -105,
+                                "point": -6.5
+                            }
+                        ]
+                    },
+                    {
+                        "key": "totals",
+                        "last_update": "2026-05-29T19:05:59Z",
+                        "outcomes": [
+                            {
+                                "name": "Over",
+                                "price": -110,
+                                "point": 216.5
+                            },
+                            {
+                                "name": "Under",
+                                "price": -110,
+                                "point": 216.5
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "1aae688472781f1a1aaf3efdb38e884b",
+        "sport_key": "basketball_nba",
+        "sport_title": "NBA",
+        "commence_time": "2026-06-04T00:40:00Z",
+        "home_team": "San Antonio Spurs",
+        "away_team": "New York Knicks",
+        "bookmakers": [
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2026-05-29T19:05:59Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2026-05-29T19:05:59Z",
+                        "outcomes": [
+                            {
+                                "name": "New York Knicks",
+                                "price": 144
+                            },
+                            {
+                                "name": "San Antonio Spurs",
+                                "price": -172
+                            }
+                        ]
+                    },
+                    {
+                        "key": "spreads",
+                        "last_update": "2026-05-29T19:05:59Z",
+                        "outcomes": [
+                            {
+                                "name": "New York Knicks",
+                                "price": -106,
+                                "point": 3.5
+                            },
+                            {
+                                "name": "San Antonio Spurs",
+                                "price": -114,
+                                "point": -3.5
+                            }
+                        ]
+                    },
+                    {
+                        "key": "totals",
+                        "last_update": "2026-05-29T19:05:59Z",
+                        "outcomes": [
+                            {
+                                "name": "Over",
+                                "price": -110,
+                                "point": 216.5
+                            },
+                            {
+                                "name": "Under",
+                                "price": -110,
+                                "point": 216.5
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "draftkings",
+                "title": "DraftKings",
+                "last_update": "2026-05-29T19:05:59Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2026-05-29T19:05:59Z",
+                        "outcomes": [
+                            {
+                                "name": "New York Knicks",
+                                "price": 140
+                            },
+                            {
+                                "name": "San Antonio Spurs",
+                                "price": -166
+                            }
+                        ]
+                    },
+                    {
+                        "key": "spreads",
+                        "last_update": "2026-05-29T19:05:59Z",
+                        "outcomes": [
+                            {
+                                "name": "New York Knicks",
+                                "price": -115,
+                                "point": 4.5
+                            },
+                            {
+                                "name": "San Antonio Spurs",
+                                "price": -105,
+                                "point": -4.5
+                            }
+                        ]
+                    },
+                    {
+                        "key": "totals",
+                        "last_update": "2026-05-29T19:05:59Z",
+                        "outcomes": [
+                            {
+                                "name": "Over",
+                                "price": -110,
+                                "point": 217.5
+                            },
+                            {
+                                "name": "Under",
+                                "price": -110,
+                                "point": 217.5
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
