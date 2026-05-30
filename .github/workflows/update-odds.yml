@@ -32,4 +32,5 @@ jobs:
           git config user.email "actions@github.com"
           git add data/nba.json data/mlb.json
           git commit -m "Update odds data" || echo "No changes to commit"
+          git pull --rebase origin main
           git push
