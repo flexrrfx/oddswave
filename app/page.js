@@ -456,12 +456,19 @@ export default function Home() {
       <div className="sticky top-0 z-20 border-b border-zinc-800 bg-[#090c12] px-6 py-5">
         <div className="grid grid-cols-3 items-center gap-4">
           <div className="flex items-center">
-            <img
-              src="/logos/oddswavelogo.png"
-              alt="OddsWave"
-              className="h-28 w-auto object-contain"
-            />
-          </div>
+  <a
+    href="https://discord.gg/k6GJapBNfg"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="transition hover:scale-105"
+  >
+    <img
+      src="/logos/oddswavelogo.png"
+      alt="OddsWave"
+      className="h-28 w-auto object-contain"
+    />
+  </a>
+</div>
 
           <div className="text-center">
             <h1 className="text-3xl font-black tracking-wide text-white">
@@ -487,7 +494,7 @@ export default function Home() {
 
           <div className="flex items-center justify-end gap-3">
   <a
-    href="YOUR_DISCORD_INVITE_LINK"
+    href="https://discord.gg/k6GJapBNfg"
     target="_blank"
     rel="noopener noreferrer"
     className="rounded-lg border border-[#5865F2]/60 bg-[#5865F2]/20 px-4 py-2 text-sm font-black text-white transition hover:bg-[#5865F2]/35 hover:shadow-[0_0_18px_rgba(88,101,242,0.35)]"
