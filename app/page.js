@@ -447,7 +447,9 @@ className="cursor-pointer border-b border-zinc-800 transition-all duration-150 h
 export default function Home() {
   const [sport, setSport] = useState("NBA");
   const [market, setMarket] = useState("h2h");
-  const games = SPORTS[sport];
+  const games = SPORTS[sport].filter(
+  (game) => new Date(game.commence_time) > new Date()
+);
 
   return (
     <main className="min-h-screen bg-[#07090d] text-white">
