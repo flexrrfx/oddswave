@@ -485,16 +485,25 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="flex justify-end">
-            <select
-              value={sport}
-              onChange={(e) => setSport(e.target.value)}
-              className="rounded-lg border border-zinc-700 bg-zinc-900 px-4 py-2 font-bold text-white"
-            >
-              <option value="NBA">NBA</option>
-              <option value="MLB">MLB</option>
-            </select>
-          </div>
+          <div className="flex items-center justify-end gap-3">
+  <a
+    href="YOUR_DISCORD_INVITE_LINK"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="rounded-lg border border-[#5865F2]/60 bg-[#5865F2]/20 px-4 py-2 text-sm font-black text-white transition hover:bg-[#5865F2]/35 hover:shadow-[0_0_18px_rgba(88,101,242,0.35)]"
+  >
+    Join Discord
+  </a>
+
+  <select
+    value={sport}
+    onChange={(e) => setSport(e.target.value)}
+    className="rounded-lg border border-zinc-700 bg-zinc-900 px-4 py-2 font-bold text-white"
+  >
+    <option value="NBA">NBA</option>
+    <option value="MLB">MLB</option>
+  </select>
+</div>
         </div>
       </div>
 
