@@ -498,7 +498,7 @@ export default function Home() {
     target="_blank"
     rel="noopener noreferrer"
 className="rounded-lg border border-[#a855f7]/70 bg-[#7c3aed]/25 px-4 py-2 text-sm font-black text-white shadow-[0_0_18px_rgba(168,85,247,0.35)] transition hover:bg-[#7c3aed]/35 hover:shadow-[0_0_22px_rgba(168,85,247,0.5)]"  >
-    Join Discord
+    Join Our Discord!
   </a>
 
   <select
