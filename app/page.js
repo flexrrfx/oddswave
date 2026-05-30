@@ -480,11 +480,11 @@ export default function Home() {
                 <button
                   key={key}
                   onClick={() => setMarket(key)}
-                  className={`rounded-lg border px-4 py-2 font-bold ${
-                    market === key
-                      ? "border-violet-400 bg-violet-500/20 text-violet-300"
-                      : "border-zinc-700 bg-zinc-900 text-zinc-300"
-                  }`}
+                  className={`rounded-lg border px-4 py-2 font-bold transition ${
+  market === key
+    ? "border-[#a855f7]/70 bg-[#7c3aed]/25 text-white shadow-[0_0_18px_rgba(168,85,247,0.35)]"
+    : "border-zinc-700 bg-zinc-900 text-zinc-300 hover:border-[#a855f7]/60 hover:bg-[#7c3aed]/15 hover:text-white hover:shadow-[0_0_14px_rgba(168,85,247,0.22)]"
+}`}
                 >
                   {label}
                 </button>
