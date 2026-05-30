@@ -30,7 +30,7 @@ jobs:
         run: |
           git config user.name "OddsWave Bot"
           git config user.email "actions@github.com"
+          git pull --rebase origin main
           git add data/nba.json data/mlb.json
           git commit -m "Update odds data" || echo "No changes to commit"
-          git pull --rebase origin main
           git push
