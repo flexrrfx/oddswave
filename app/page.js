@@ -333,9 +333,9 @@ className="cursor-pointer border-b border-zinc-800 transition-all duration-150 h
                   />
                 )}
 
-                <span className="font-black text-violet-300">
-                  {formatOdds(row.bestPrice)}
-                </span>
+                <span className="font-black text-[#c084fc]">
+  {formatOdds(row.bestPrice)}
+</span>
               </div>
             </td>
 
@@ -410,7 +410,7 @@ className="cursor-pointer border-b border-zinc-800 transition-all duration-150 h
 
                             <div
                               className={`font-black ${
-                                isBest ? "text-cyan-300" : "text-white"
+                               isBest ? "text-[#c084fc]" : "text-white"
                               }`}
                             >
                               {formatOdds(book.sideA.price)}
@@ -497,16 +497,14 @@ export default function Home() {
     href="https://discord.gg/k6GJapBNfg"
     target="_blank"
     rel="noopener noreferrer"
-    className="rounded-lg border border-[#5865F2]/60 bg-[#5865F2]/20 px-4 py-2 text-sm font-black text-white transition hover:bg-[#5865F2]/35 hover:shadow-[0_0_18px_rgba(88,101,242,0.35)]"
-  >
+className="rounded-lg border border-[#a855f7]/70 bg-[#7c3aed]/25 px-4 py-2 text-sm font-black text-white shadow-[0_0_18px_rgba(168,85,247,0.35)] transition hover:bg-[#7c3aed]/35 hover:shadow-[0_0_22px_rgba(168,85,247,0.5)]"  >
     Join Discord
   </a>
 
   <select
     value={sport}
     onChange={(e) => setSport(e.target.value)}
-    className="rounded-lg border border-zinc-700 bg-zinc-900 px-4 py-2 font-bold text-white"
-  >
+className="rounded-lg border border-[#a855f7]/60 bg-[#7c3aed]/15 px-4 py-2 font-bold text-white shadow-[0_0_14px_rgba(168,85,247,0.22)] transition hover:bg-[#7c3aed]/25 hover:shadow-[0_0_18px_rgba(168,85,247,0.35)]"  >
     <option value="NBA">NBA</option>
     <option value="MLB">MLB</option>
   </select>
