@@ -154,16 +154,7 @@ function getBestBookKey(books) {
     ?.book;
 }
 
-function getAveragePrice(books) {
-  const prices = books
-    .map((book) => Number(book.sideA?.price))
-    .filter((price) => Number.isFinite(price));
 
-  if (!prices.length) return "-";
-
-  const average = prices.reduce((sum, price) => sum + price, 0) / prices.length;
-  return Math.round(average);
-}
 
 function buildRows(game, marketKey) {
   const rows = [];
@@ -204,7 +195,6 @@ function buildRows(game, marketKey) {
         line: "ML",
         bestPrice: getBestPrice(books),
         bestBook: getBestBookKey(books),
-        avgPrice: getAveragePrice(books),
         fairOdds: getFairOdds(books),
         books,
       });
@@ -253,7 +243,6 @@ function buildRows(game, marketKey) {
         line,
         bestPrice: getBestPrice(books),
         bestBook: getBestBookKey(books),
-        avgPrice: getAveragePrice(books),
         fairOdds: getFairOdds(books),
         books,
       });
@@ -302,7 +291,6 @@ function buildRows(game, marketKey) {
         line,
         bestPrice: getBestPrice(books),
         bestBook: getBestBookKey(books),
-        avgPrice: getAveragePrice(books),
         fairOdds: getFairOdds(books),
         books,
       });
@@ -351,11 +339,7 @@ className="cursor-pointer border-b border-zinc-800 transition-all duration-150 h
               </div>
             </td>
 
-            <td className="px-4 py-3 text-center">
-  <span className="font-black text-zinc-300">
-    {formatOdds(row.avgPrice)}
-  </span>
-</td>
+           
 
             
 
@@ -382,7 +366,7 @@ className="cursor-pointer border-b border-zinc-800 transition-all duration-150 h
 
           {openRow === row.id && (
             <tr>
-            <td colSpan={3 + BOOKS.length} className="bg-black px-5 py-4">
+            <td colSpan={2 + BOOKS.length} className="bg-black px-5 py-4">
                 <div className="flex gap-3 overflow-x-auto">
                   {row.books.map((book) => {
                     const isBest = book.book === row.bestBook;
@@ -548,7 +532,6 @@ export default function Home() {
                   <tr className="bg-[#171b24] text-xs uppercase text-zinc-300">
                     <th className="px-4 py-4 text-left">Selection</th>
                     <th className="px-4 py-4 text-center">Best Price</th>
-                    <th className="px-4 py-4 text-center">Avg Price</th>
 
                     {BOOKS.map((bookKey) => (
                       <th key={bookKey} className="px-4 py-4 text-center">
